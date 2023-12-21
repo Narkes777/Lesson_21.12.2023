@@ -1,0 +1,12 @@
+python -m django startproject Lesson_2 - Создает базовую конфигурацию проекта
+python .\manage.py runserver - Запускает django-сервер
+python .\manage.py startapp <имя приложения> - Создает новое приложение
+python .\manage.py check - Проверяет наш проект на предмет наличия ошибок
+python .\manage.py makemigrations - Команда не создает новые таблицы в БД, она создает инструкции для БД, для создания новых таблиц
+python .\manage.py migrate - применяет последнюю миграцию к БД
+winget install --id Git.Git - e --source winget - установка Git
+python -m ensurepip - для установка pip
+pip install django - установка django
+cd .. - на папку назад
+сd .\имя папки - в какую именно папку
+python manage.py shell - вызов консоли django
